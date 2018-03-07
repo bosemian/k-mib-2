@@ -1,10 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Athiti');
+@import url("https://fonts.googleapis.com/css?family=Athiti");
 
-$font-family-base: 'Athiti', sans-serif;
+$font-family-base: "Athiti", sans-serif;
+
+hr {
+  max-width: 15rem;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid 0.25rem;
+  margin-bottom: 2.5rem;
+  color: lightseagreen;
+}
 
 .landing-page {
-  height: 500px;
-
   .landing-head {
     padding-top: 120px;
   }
@@ -13,13 +21,22 @@ $font-family-base: 'Athiti', sans-serif;
 .service {
   background-color: red;
   opacity: 0.5;
-  height: 500px;
+
+  .service h1 {
+    width: 200px;
+  }
+
+  .img-circle {
+    width: 130px;
+    height: 130px;
+  }
+}
+
+.portfolio {
 }
 
 @media (max-width: 575.98px) {
   .landing-page {
-    height: 500px;
-
     .landing-head {
       display: flex;
       flex-direction: column;
@@ -27,5 +44,15 @@ $font-family-base: 'Athiti', sans-serif;
       align-items: center;
       text-align: center;
     }
+  }
+
+  .service {
+    .img-circle {
+      width: 100px;
+      height: 100px;
+    }
+  }
+
+  .portfolio {
   }
 }

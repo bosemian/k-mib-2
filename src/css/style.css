@@ -1,20 +1,32 @@
 @import url("https://fonts.googleapis.com/css?family=Athiti");
-.landing-page {
-  height: 500px; }
-  .landing-page .landing-head {
-    padding-top: 120px; }
+hr {
+  max-width: 15rem;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid 0.25rem;
+  margin-bottom: 2.5rem;
+  color: lightseagreen; }
+
+.landing-page .landing-head {
+  padding-top: 120px; }
 
 .service {
   background-color: red;
-  opacity: 0.5;
-  height: 500px; }
+  opacity: 0.5; }
+  .service .service h1 {
+    width: 200px; }
+  .service .img-circle {
+    width: 130px;
+    height: 130px; }
 
 @media (max-width: 575.98px) {
-  .landing-page {
-    height: 500px; }
-    .landing-page .landing-head {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center; } }
+  .landing-page .landing-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+  .service .img-circle {
+    width: 100px;
+    height: 100px; } }
