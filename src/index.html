@@ -16,7 +16,9 @@
   <header>
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light bg-white">
-        <h1 class="navbar-brand" href="#" class="text-uppercase">Logo</h1>
+        <a href="index.html">
+          <img src="images/csp_logo.png" alt="">
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
           aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -55,25 +57,26 @@
   <!-- Main -->
   <main>
     <!-- Landingpage -->
-    <section class="landing-page bg-info">
+    <section class="landing-page bg-info py-5">
       <div class="container">
         <div class="clearfix">
           <div class="landing-head py-5">
             <h1 class="text-white">ช่างสุพรรณ เอ็นจีเนียริ่ง</h1>
             <p class="text-white">พ่นทราย ยิงทราย พ่นสี ทั้งในและนอกสถานที่</p>
-            <a href="#" class="btn btn-warning text-white">ติดต่อเรา</a>
+            <a href="#" class="btn btn-warning text-white px-5">ติดต่อเรา</a>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Service -->
-    <section class="service py-5">
+    <section class="service bg-danger pt-2 pb-5">
       <div class="container">
         <h2 class="text-center py-2">บริการ</h2>
+        <hr>
         <div class="row">
           <div class="col text-center service-img">
-            <img src="http://via.placeholder.com/350x150" alt="" class="rounded-circle img-circle">
+            <img src="http://via.placeholder.com/300x150" alt="" class="rounded-circle img-circle">
             <h4 class="font-weight-bold text-center">พ่นทราย พ่นสี คัชซีและตัวถัง</h4>
           </div>
           <div class="col text-center">
@@ -97,48 +100,40 @@
     </section>
 
     <!-- Portfolio -->
-    <section class="container py-5 bg-success">
-      <div class="portfolio">
+    <section class="portfolio py-5">
+      <div class="container">
         <h2 class="text-center mt-2">ผลงานที่ผ่านมา</h2>
         <hr>
         <div class="row mt-5">
-          <div class="col">
+          <div class="card-deck">
             <div class="card text-center">
-              <img class="card-img-top" src="http://via.placeholder.com/350x150" alt="Card image cap">
+              <img class="card-img-top " src="http://via.placeholder.com/100x100" alt="Card image cap">
               <div class="card-body">
-                <p class="card-text">Water tank ceramic coating</p>
+                <h4 class="card-title">Water tank ceramic coating</h4>
               </div>
             </div>
-          </div>
-          <div class="col">
             <div class="card text-center">
-              <img class="card-img-top" src="http://via.placeholder.com/350x150" alt="Card image cap">
+              <img class="card-img-top" src="http://via.placeholder.com/100x100" alt="Card image cap">
               <div class="card-body">
-                <p class="card-text">งานพ่นทราย-พ่นสีหัวรถจักรไอน้ำพิพิธพัณฑ์เจษฎาเทคนิค มิวเซียม</p>
+                <h4 class="card-title">งานพ่นทราย-พ่นสีหัวรถจักรไอน้ำพิพิธพัณฑ์เจษฎาเทคนิค มิวเซียม</h4>
               </div>
             </div>
-          </div>
-          <div class="col">
             <div class="card text-center">
-              <img class="card-img-top" src="http://via.placeholder.com/350x150" alt="Card image cap">
+              <img class="card-img-top" src="http://via.placeholder.com/100x100" alt="Card image cap">
               <div class="card-body">
-                <p class="card-text">งานทำสี Pipe support ก๊าซธรรมชาติ</p>
+                <h4 class="card-title">งานทำสี Pipe support ก๊าซธรรมชาติ</h4>
               </div>
             </div>
-          </div>
-          <div class="col">
             <div class="card text-center">
-              <img class="card-img-top" src="http://via.placeholder.com/350x150" alt="Card image cap">
+              <img class="card-img-top" src="http://via.placeholder.com/100x100" alt="Card image cap">
               <div class="card-body">
-                <p class="card-text">งาน บ.ฟูลสเกลเทคโนโลยี Mitering NG</p>
+                <h4 class="card-title">งาน บ.ฟูลสเกลเทคโนโลยี Mitering NG</h4>
               </div>
             </div>
-          </div>
-          <div class="col">
             <div class="card text-centers">
-              <img class="card-img-top" src="http://via.placeholder.com/350x150" alt="Card image cap">
+              <img class="card-img-top" src="http://via.placeholder.com/100x100" alt="Card image cap">
               <div class="card-body">
-                <p class="card-text">พ่นทรายทำสี Additional Service Platform for PTTOC เขต 8</p>
+                <h4 class="card-title">พ่นทรายทำสี Additional Service Platform for PTTOC เขต 8</h4>
               </div>
             </div>
           </div>
@@ -148,16 +143,87 @@
         </div>
     </section>
 
-    <!-- Example -->
-    <section class="example py-5 bg-secondary">
-      <div class="container">
+    <!-- Showcase -->
+    <section class="showcase py-5">
+      <div class="container px-5">
         <h2 class="text-center">ตัวอย่างงาน</h2>
         <hr>
+        <h5 class="text-center">พ่นถังแลกเปลี่ยนความร้อน</h5>
         <div class="row">
-
+          <div class="col-lg-6 mb-2">
+            <div class="card h-100 rounded-0">
+              <img class="card-image-top" src="http://via.placeholder.com/415x200" alt="พ่นถังแลกเปลี่ยนความร้อน">
+            </div>
+          </div>
+          <div class="col-lg-6 mb-2">
+            <div class="card h-100 rounded-0">
+              <img class="card-image-top" src="http://via.placeholder.com/415x200" alt="พ่นถังแลกเปลี่ยนความร้อน">
+            </div>
+          </div>
         </div>
+        <hr>
+        <h5 class="text-center">พ่นถังแสตนเลส</h5>
+        <div class="row">
+          <div class="col-lg-6 mb-2">
+            <div class="card h-100 rounded-0">
+              <img class="card-image-top" src="http://via.placeholder.com/415x200" alt="พ่นถังแลกเปลี่ยนความร้อน">
+            </div>
+          </div>
+          <div class="col-lg-6 mb-2">
+            <div class="card h-100 rounded-0">
+              <img class="card-image-top" src="http://via.placeholder.com/415x200" alt="พ่นถังแลกเปลี่ยนความร้อน">
+            </div>
+          </div>
+        </div>
+        <hr>
+        <h5 class="text-center">พ่นรถ</h5>
+        <div class="row">
+          <div class="col-lg-6 mb-2">
+            <div class="card h-100 rounded-0">
+              <img class="card-image-top" src="http://via.placeholder.com/415x200" alt="พ่นถังแลกเปลี่ยนความร้อน">
+            </div>
+          </div>
+          <div class="col-lg-6 mb-2">
+            <div class="card h-100 rounded-0">
+              <img class="card-image-top" src="http://via.placeholder.com/415x200" alt="พ่นถังแลกเปลี่ยนความร้อน">
+            </div>
+          </div>
+        </div>
+        <hr>
+        <h5 class="text-center">พ่นเรือ</h5>
+        <div class="row">
+          <div class="col-lg-6 mb-2">
+            <div class="card h-100 rounded-0">
+              <img class="card-image-top" src="http://via.placeholder.com/415x200" alt="พ่นถังแลกเปลี่ยนความร้อน">
+            </div>
+          </div>
+          <div class="col-lg-6 mb-2">
+            <div class="card h-100 rounded-0">
+              <img class="card-image-top" src="http://via.placeholder.com/415x200" alt="พ่นถังแลกเปลี่ยนความร้อน">
+            </div>
+          </div>
+        </div>
+        <hr>
+        <h5 class="text-center">พ่นเหล็ก</h5>
+        <div class="row">
+          <div class="col-lg-6 mb-2">
+            <div class="card h-100 rounded-0">
+              <img class="card-image-top" src="http://via.placeholder.com/415x200" alt="พ่นถังแลกเปลี่ยนความร้อน">
+            </div>
+          </div>
+          <div class="col-lg-6 mb-2">
+            <div class="card h-100 rounded-0">
+              <img class="card-image-top" src="http://via.placeholder.com/415x200" alt="พ่นถังแลกเปลี่ยนความร้อน">
+            </div>
+          </div>
+        </div>
+        <hr>
       </div>
     </section>
+
+    <footer class="bg-dark text-center text-white py-5">
+      &copy; Copyright 2018 changsuphan.com
+    </footer>
   </main>
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
