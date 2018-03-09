@@ -5,14 +5,15 @@ hr {
   text-align: center;
   border: none;
   border-top: solid 0.25rem;
-  margin-bottom: 2.5rem;
   color: lightseagreen; }
+
+body {
+  font-family: "Athiti", sans-serif; }
 
 .landing-page .landing-head {
   padding-top: 120px; }
 
 .service {
-  background-color: red;
   opacity: 0.5; }
   .service .service h1 {
     width: 200px; }

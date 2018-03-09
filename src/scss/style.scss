@@ -1,15 +1,20 @@
 @import url("https://fonts.googleapis.com/css?family=Athiti");
 
-$font-family-base: "Athiti", sans-serif;
+// $font-family-sans-serif: "Athiti", sans-serif;
 
+// helper
 hr {
   max-width: 15rem;
   padding: 0;
   text-align: center;
   border: none;
   border-top: solid 0.25rem;
-  margin-bottom: 2.5rem;
   color: lightseagreen;
+}
+
+// override
+body {
+  font-family: "Athiti", sans-serif;
 }
 
 .landing-page {
@@ -19,7 +24,6 @@ hr {
 }
 
 .service {
-  background-color: red;
   opacity: 0.5;
 
   .service h1 {
@@ -33,6 +37,9 @@ hr {
 }
 
 .portfolio {
+}
+
+.showcase {
 }
 
 @media (max-width: 575.98px) {
