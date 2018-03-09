@@ -1,11 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Athiti");
-hr {
+.hr {
   max-width: 15rem;
   padding: 0;
   text-align: center;
   border: none;
   border-top: solid 0.25rem;
-  color: lightseagreen; }
+  color: #43ACB6; }
+
+.underline {
+  height: 3px;
+  background: #43ACB6; }
+
+.btn-round {
+  border-radius: 10px; }
 
 body {
   font-family: "Athiti", sans-serif; }

@@ -3,13 +3,23 @@
 // $font-family-sans-serif: "Athiti", sans-serif;
 
 // helper
-hr {
+.hr {
   max-width: 15rem;
   padding: 0;
   text-align: center;
   border: none;
   border-top: solid 0.25rem;
-  color: lightseagreen;
+  color: #43ACB6;
+}
+
+.underline {
+  height: 3px;
+  background: #43ACB6;
+}
+
+// custom
+.btn-round {
+  border-radius: 10px;
 }
 
 // override
@@ -58,8 +68,5 @@ body {
       width: 100px;
       height: 100px;
     }
-  }
-
-  .portfolio {
   }
 }
