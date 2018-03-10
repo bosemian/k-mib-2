@@ -1,4 +1,23 @@
 @import url("https://fonts.googleapis.com/css?family=Athiti");
+.bg-cover {
+  position: relative;
+  height: 300px; }
+  .bg-cover .bg-cover-text {
+    position: absolute;
+    bottom: 0; }
+
+.pipe .pipe-head {
+  top: -22px; }
+
+body {
+  font-family: "Athiti", sans-serif; }
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #43ACB6; }
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #43ACB6; }
+
 .hr {
   max-width: 15rem;
   padding: 0;
@@ -14,8 +33,11 @@
 .btn-round {
   border-radius: 10px; }
 
-body {
-  font-family: "Athiti", sans-serif; }
+.nav-icon {
+  width: 110px; }
+
+.text-gray {
+  color: #FFF7F7; }
 
 .landing-page .landing-head {
   padding-top: 120px; }

@@ -1,0 +1,9 @@
+.bg-cover {
+  position: relative;
+  height: 300px; }
+  .bg-cover .bg-cover-text {
+    position: absolute;
+    bottom: 0; }
+
+.pipe .pipe-head {
+  top: -22px; }

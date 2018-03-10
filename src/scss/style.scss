@@ -1,6 +1,20 @@
 @import url("https://fonts.googleapis.com/css?family=Athiti");
+@import 'portfolio.scss';
 
-// $font-family-sans-serif: "Athiti", sans-serif;
+$blue-light: #43ACB6;
+
+// override
+body {
+  font-family: "Athiti", sans-serif;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: $blue-light;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: $blue-light;
+}
 
 // helper
 .hr {
@@ -9,12 +23,12 @@
   text-align: center;
   border: none;
   border-top: solid 0.25rem;
-  color: #43ACB6;
+  color: $blue-light;
 }
 
 .underline {
   height: 3px;
-  background: #43ACB6;
+  background: $blue-light;
 }
 
 // custom
@@ -22,14 +36,19 @@
   border-radius: 10px;
 }
 
-// override
-body {
-  font-family: "Athiti", sans-serif;
+.nav-icon {
+  width: 110px;
 }
 
+.text-gray {
+  color: #FFF7F7;
+}
+
+//scss
 .landing-page {
   .landing-head {
     padding-top: 120px;
+
   }
 }
 
@@ -46,12 +65,7 @@ body {
   }
 }
 
-.portfolio {
-}
-
-.showcase {
-}
-
+// media
 @media (max-width: 575.98px) {
   .landing-page {
     .landing-head {
