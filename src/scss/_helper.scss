@@ -1,0 +1,71 @@
+@import '_variable.scss';
+
+.bg-contact {
+  background-color: $bg_contact !important;
+}
+
+.bg-footer {
+  background-color: $bg_footer !important;
+}
+
+.bg-blue-green {
+  background-color: $blue_green !important;
+}
+
+.bg-orange-gold {
+  background-color: $orange_gold !important;
+}
+
+.bg-red-blood {
+  background-color: $red_blood !important;
+}
+
+.bg-blue-indigo {
+  background-color: $blue_indigo !important;
+}
+
+.bg-gray-green {
+  background-color: $gray_green !important;
+}
+
+.bd-blue-green {
+  border-color: $blue_green !important;
+}
+
+.bd-orange-gold {
+  border-color: $orange_gold !important;
+}
+
+.bd-red-blood {
+  border-color: $red_blood !important;
+}
+
+.bd-blue-indigo {
+  border-color: $blue_indigo !important;
+}
+
+.bd-gray-green {
+  border-color: $gray_green !important;
+}
+
+.txt-gray {
+  color: $txt_gray;
+}
+
+.txt-footer {
+  color: $txt_footer;
+}
+
+.hr {
+  max-width: 15rem;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid 0.25rem;
+  color: $blue_light;
+}
+
+.underline {
+  height: 3px;
+  background: $blue_light;
+}

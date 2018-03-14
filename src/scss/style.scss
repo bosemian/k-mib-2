@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Athiti");
+@import 'variable.scss';
+@import 'helper.scss';
 @import 'portfolio.scss';
-
-$blue-light: #43ACB6;
 
 // override
 body {
@@ -9,27 +9,13 @@ body {
 }
 
 .navbar-light .navbar-nav .active > .nav-link {
-  color: $blue-light;
+  color: $blue_light;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: $blue-light;
+  color: $blue_light;
 }
 
-// helper
-.hr {
-  max-width: 15rem;
-  padding: 0;
-  text-align: center;
-  border: none;
-  border-top: solid 0.25rem;
-  color: $blue-light;
-}
-
-.underline {
-  height: 3px;
-  background: $blue-light;
-}
 
 // custom
 .btn-round {

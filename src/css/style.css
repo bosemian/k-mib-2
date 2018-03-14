@@ -1,22 +1,45 @@
 @import url("https://fonts.googleapis.com/css?family=Athiti");
-.bg-cover {
-  position: relative;
-  height: 300px; }
-  .bg-cover .bg-cover-text {
-    position: absolute;
-    bottom: 0; }
+.bg-contact {
+  background-color: #3E3D3B !important; }
 
-.pipe .pipe-head {
-  top: -22px; }
+.bg-footer {
+  background-color: #000000 !important; }
 
-body {
-  font-family: "Athiti", sans-serif; }
+.bg-blue-green {
+  background-color: #40DDA6 !important; }
 
-.navbar-light .navbar-nav .active > .nav-link {
-  color: #43ACB6; }
+.bg-orange-gold {
+  background-color: #F4B96A !important; }
 
-.navbar-light .navbar-nav .nav-link:hover {
-  color: #43ACB6; }
+.bg-red-blood {
+  background-color: #BF2828 !important; }
+
+.bg-blue-indigo {
+  background-color: #286EBF !important; }
+
+.bg-gray-green {
+  background-color: #ACB9AB !important; }
+
+.bd-blue-green {
+  border-color: #40DDA6 !important; }
+
+.bd-orange-gold {
+  border-color: #F4B96A !important; }
+
+.bd-red-blood {
+  border-color: #BF2828 !important; }
+
+.bd-blue-indigo {
+  border-color: #286EBF !important; }
+
+.bd-gray-green {
+  border-color: #ACB9AB !important; }
+
+.txt-gray {
+  color: #FFF7F7; }
+
+.txt-footer {
+  color: #707070; }
 
 .hr {
   max-width: 15rem;
@@ -29,6 +52,26 @@ body {
 .underline {
   height: 3px;
   background: #43ACB6; }
+
+.bg-cover {
+  position: relative;
+  height: 300px; }
+  .bg-cover .bg-cover-text {
+    position: absolute;
+    opacity: .9;
+    bottom: 0; }
+
+.pipe .pipe-head {
+  top: -19px; }
+
+body {
+  font-family: "Athiti", sans-serif; }
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #43ACB6; }
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #43ACB6; }
 
 .btn-round {
   border-radius: 10px; }
