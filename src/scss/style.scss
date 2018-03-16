@@ -2,6 +2,7 @@
 @import 'variable.scss';
 @import 'helper.scss';
 @import 'portfolio.scss';
+@import 'service.scss';
 
 // override
 body {
@@ -24,10 +25,6 @@ body {
 
 .nav-icon {
   width: 110px;
-}
-
-.text-gray {
-  color: #FFF7F7;
 }
 
 //scss

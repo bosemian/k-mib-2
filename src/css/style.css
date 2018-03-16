@@ -53,6 +53,9 @@
   height: 3px;
   background: #43ACB6; }
 
+.nav-font {
+  font-size: 1.3rem; }
+
 .bg-cover {
   position: relative;
   height: 300px; }
@@ -63,6 +66,9 @@
 
 .pipe .pipe-head {
   top: -19px; }
+
+.bg-service {
+  background-color: purple !important; }
 
 body {
   font-family: "Athiti", sans-serif; }
@@ -78,9 +84,6 @@ body {
 
 .nav-icon {
   width: 110px; }
-
-.text-gray {
-  color: #FFF7F7; }
 
 .landing-page .landing-head {
   padding-top: 120px; }
