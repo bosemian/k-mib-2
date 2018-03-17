@@ -57,15 +57,9 @@
   font-size: 1.3rem; }
 
 .bg-about {
-  background-image: url("../images/about_banner_@2x.png");
+  background-image: url("../images/about/about_banner.png");
   background-size: cover;
   background-repeat: no-repeat; }
-
-.bg-timeline {
-  background-image: url("../images/timeline@2x.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 350px; }
 
 .bg-cover {
   position: relative;
