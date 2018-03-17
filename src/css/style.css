@@ -5,35 +5,17 @@
 .bg-footer {
   background-color: #000000 !important; }
 
-.bg-blue-green {
-  background-color: #40DDA6 !important; }
+.bg-blue {
+  background-color: #01A1B1 !important; }
 
-.bg-orange-gold {
-  background-color: #F4B96A !important; }
+.bg-yellow {
+  background-color: #FCF007 !important; }
 
-.bg-red-blood {
-  background-color: #BF2828 !important; }
+.bd-yellow {
+  border-color: #FCF007 !important; }
 
-.bg-blue-indigo {
-  background-color: #286EBF !important; }
-
-.bg-gray-green {
-  background-color: #ACB9AB !important; }
-
-.bd-blue-green {
-  border-color: #40DDA6 !important; }
-
-.bd-orange-gold {
-  border-color: #F4B96A !important; }
-
-.bd-red-blood {
-  border-color: #BF2828 !important; }
-
-.bd-blue-indigo {
-  border-color: #286EBF !important; }
-
-.bd-gray-green {
-  border-color: #ACB9AB !important; }
+.bd-blue {
+  border-color: #01A1B1 !important; }
 
 .txt-gray {
   color: #FFF7F7; }
@@ -56,14 +38,17 @@
 .nav-font {
   font-size: 1.3rem; }
 
-.bg-about {
+.landing-about {
   background-image: url("../images/about/about_banner.png");
   background-size: cover;
   background-repeat: no-repeat; }
 
+.bg-landing {
+  height: 400px; }
+
 .bg-cover {
   position: relative;
-  height: 300px; }
+  height: 450px; }
   .bg-cover .bg-cover-text {
     position: absolute;
     opacity: .9;

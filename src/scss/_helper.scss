@@ -8,44 +8,20 @@
   background-color: $bg_footer !important;
 }
 
-.bg-blue-green {
-  background-color: $blue_green !important;
+.bg-blue {
+  background-color: $bg_blue !important;
 }
 
-.bg-orange-gold {
-  background-color: $orange_gold !important;
+.bg-yellow {
+  background-color: $bg_yellow !important;
 }
 
-.bg-red-blood {
-  background-color: $red_blood !important;
+.bd-yellow {
+  border-color: $bg_yellow !important;
 }
 
-.bg-blue-indigo {
-  background-color: $blue_indigo !important;
-}
-
-.bg-gray-green {
-  background-color: $gray_green !important;
-}
-
-.bd-blue-green {
-  border-color: $blue_green !important;
-}
-
-.bd-orange-gold {
-  border-color: $orange_gold !important;
-}
-
-.bd-red-blood {
-  border-color: $red_blood !important;
-}
-
-.bd-blue-indigo {
-  border-color: $blue_indigo !important;
-}
-
-.bd-gray-green {
-  border-color: $gray_green !important;
+.bd-blue {
+  border-color: $bg_blue !important;
 }
 
 .txt-gray {
@@ -74,8 +50,12 @@
   font-size: 1.3rem;
 }
 
-.bg-about {
+.landing-about {
   background-image: url('../images/about/about_banner.png');
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.bg-landing {
+  height: 400px;
 }
