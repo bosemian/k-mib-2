@@ -46,6 +46,26 @@
 .bg-landing {
   height: 400px; }
 
+.bg-main {
+  background-image: url("../images/main/banner.png");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.landing-main-service {
+  background-image: url("../images/main/bg1.png");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.landing-main-port {
+  background-image: url("../images/main/bg2.png");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.landing-contact {
+  background-image: url("../images/contact/contact_banner.png");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
 .bg-cover {
   position: relative;
   height: 450px; }
@@ -82,13 +102,12 @@ body {
 .landing-page .landing-head {
   padding-top: 120px; }
 
-.service {
-  opacity: 0.5; }
-  .service .service h1 {
-    width: 200px; }
-  .service .img-circle {
-    width: 130px;
-    height: 130px; }
+.service .service h1 {
+  width: 200px; }
+
+.service .img-circle {
+  width: 130px;
+  height: 130px; }
 
 @media (max-width: 575.98px) {
   .landing-page .landing-head {
