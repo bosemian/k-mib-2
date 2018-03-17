@@ -74,6 +74,10 @@
     position: absolute;
     opacity: .9;
     bottom: 0; }
+  .bg-cover .bg-cover-detail {
+    display: flex;
+    position: absolute;
+    opacity: .9; }
 
 .pipe .pipe-head {
   top: -19px; }
@@ -94,7 +98,7 @@ body {
   border-radius: 10px; }
 
 .nav-icon {
-  width: 110px; }
+  width: 150px; }
 
 .landing-page .landing-head {
   padding-top: 120px; }
