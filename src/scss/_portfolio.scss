@@ -14,9 +14,10 @@
   }
 }
 
-
-.pipe {
-  .pipe-head {
+.portfolio {
+  .portfolio-head {
     top: -19px;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }

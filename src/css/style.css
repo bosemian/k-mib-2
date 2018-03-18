@@ -89,8 +89,10 @@
     position: absolute;
     opacity: .9; }
 
-.pipe .pipe-head {
-  top: -19px; }
+.portfolio .portfolio-head {
+  top: -19px;
+  left: 50%;
+  transform: translateX(-50%); }
 
 body {
   font-family: "Athiti", sans-serif; }
