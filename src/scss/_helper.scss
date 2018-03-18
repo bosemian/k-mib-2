@@ -75,11 +75,20 @@
 .landing-main-port {
   background-image: url('../images/main/bg2.png');
   background-size: cover;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
 }
 
 .landing-contact {
   background-image: url('../images/contact/contact_banner.png');
   background-size: cover;
   background-repeat: no-repeat; 
+}
+
+.landing-portfolio {
+  background-image: url('../images/portfolio/portfolio_banner.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
