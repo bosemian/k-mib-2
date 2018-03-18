@@ -76,8 +76,6 @@
   background-image: url('../images/main/bg2.png');
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.6);
-  z-index: -1;
 }
 
 .landing-contact {
@@ -91,4 +89,10 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.landing-service {
+  background-image: url('../images/service/service_banner.png');
+  background-size: cover;
+  background-repeat: no-repeat; 
 }

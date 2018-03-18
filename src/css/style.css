@@ -59,9 +59,7 @@
 .landing-main-port {
   background-image: url("../images/main/bg2.png");
   background-size: cover;
-  background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.6);
-  z-index: -1; }
+  background-repeat: no-repeat; }
 
 .landing-contact {
   background-image: url("../images/contact/contact_banner.png");
@@ -73,6 +71,11 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
+
+.landing-service {
+  background-image: url("../images/service/service_banner.png");
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 .bg-cover {
   position: relative;
@@ -89,11 +92,6 @@
 .pipe .pipe-head {
   top: -19px; }
 
-.landing-service {
-  background-image: url("../images/service/service_banner.png");
-  background-size: cover;
-  background-repeat: no-repeat; }
-
 body {
   font-family: "Athiti", sans-serif; }
 
@@ -102,6 +100,9 @@ body {
 
 .navbar-light .navbar-nav .nav-link:hover {
   color: #43ACB6; }
+
+.navbar-light .navbar-nav .show > .nav-link {
+  color: rgba(0, 0, 0, 0.5); }
 
 .btn-round {
   border-radius: 10px; }
