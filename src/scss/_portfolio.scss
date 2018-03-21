@@ -1,0 +1,23 @@
+.bg-cover {
+  position: relative;
+  height: 450px;
+
+  .bg-cover-text {
+    position: absolute;
+    opacity: .9;
+    bottom: 0;
+  }
+  .bg-cover-detail {
+    display: flex;
+    position: absolute;
+    opacity: .9;
+  }
+}
+
+.portfolio {
+  .portfolio-head {
+    top: -19px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
