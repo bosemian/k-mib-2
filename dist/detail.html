@@ -1,0 +1,27 @@
+<!DOCTYPE html><html lang=en><head><meta charset=UTF-8><meta name=viewport content="width=device-width, initial-scale=1.0"><meta http-equiv=X-UA-Compatible content="ie=edge"><link rel="shortcut icon" href=images/logo_16.png type=image/x-icon><link rel=stylesheet href=css/font-awesome.min.css><link rel=stylesheet href=css/bootstrap.css><link rel=stylesheet href=css/style.css><titleช่างสุพรรณ เอ็นจีเนียริ่ง<></titleช่างสุพรรณ></head><body><header><div class=container><nav class="navbar navbar-expand-lg navbar-light bg-white"><a href=index.html><img class=nav-icon src=images/csp_logo.png></a> <button class=navbar-toggler type=button data-toggle=collapse data-target=#navbarText aria-controls=navbarText aria-expanded=false aria-label="Toggle navigation"><span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse font-weight-bold" id=navbarText><ul class="navbar nav mr-auto"></ul><ul class="nav navbar-nav nav-font"><li class=nav-item><a class=nav-link href=index.html>หน้าแรก</a></li><li class=nav-item><a class=nav-link href=about.html>เกี่ยวกับเรา</a></li><li class=nav-item><a class=nav-link href=service.html>บริการ</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href=portfolio.html role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false>ผลงานที่ผ่านมา</a><div class=dropdown-menu aria-labelledby=navbarDropdown><a class=dropdown-item href=portfolio.html#tube>พ่นทรายท่อ</a> <a class=dropdown-item href=portfolio.html#barrel>พ่นทรายถัง</a> <a class=dropdown-item href=portfolio.html#steel>พ่นทรายเหล็ก</a> <a class=dropdown-item href=portfolio.html#metal>พ่นทรายโลหะต่างๆ</a> <a class=dropdown-item href=portfolio.html#chassis>พ่นทราย คัซซี และตัวถัง</a> <a class=dropdown-item href=portfolio.html#etc>งานอื่นๆ</a></div></li><li class=nav-item><a class=nav-link href=contact.html>ติดต่อเรา</a></li></ul></div></nav></div></header><main><section id=bannerImg class=bg-cover><div class="container h-100"><div class="row h-100 justify-content-center align-items-end"><p id=textTitle style="opacity: 0.8;" class="h2 bg-white text-dark mb-0 px-3"></p></div></div></section><section class="container py-5"><div class="row h-100"><div class=col-md-3><div id=imgOne></div></div><div class=col-md-3><div id=imgTwo></div></div><div class=col-md-6><div class="row mb-2"><div class=col-md-6><div id=imgThree></div></div><div class=col-md-6><div id=imgFour></div></div></div><div class=row><div class=col-md-6><div id=imgFive></div></div><div class=col-md-6><div id=imgSix></div></div></div></div></div></section><section class="contact bg-contact txt-gray py-5"><div class=container><div class="row flex-column align-items-center px-2"><div class="col-sm-12 text-center"><p class="h5 text-gray">ช่างสุพรรณ เอ็นจีเนียริ่ง พ่นทราย พ่นสี ในและนอกสถานที่</p></div><div class="col-sm-12 text-white"><div class="row justify-content-center"><div class="col-md-6 text-center px-0"><div class=lead><img class="img-fluid mr-1" src=images/telephone.png>081-9815542</div></div><div class="col-md-6 text-center px-0"><div class=lead><img class="img-fluid mr-1" src=images/facebook.png>SandBlastingByChangsuphan</div></div></div></div></div></div></section></main><footer class="bg-footer text-center txt-gray py-2">&copy; Copyright 2018 changsuphan.com</footer><script src=js/jquery.min.js></script><script src=js/popper.min.js></script><script src=js/bootstrap.min.js></script><script>
+    $(document).ready(function () {
+      var url_string = window.location.href;
+      var url = new URL(url_string);
+      var category = /category=([^&]+)/.exec(url)[1];
+      var portfolioId = /id=([^&]+)/.exec(url)[1];
+
+      $("#bannerImg").css({
+        'background-image': `url(images/portfolio/${category}/${portfolioId}/banner.png)`,
+        'background-size': 'cover'
+      })
+
+      $("#imgOne").append(`<img src="images/portfolio/${category}/${portfolioId}/1.png" class="img-fluid">`)
+      $("#imgTwo").append(`<img src="images/portfolio/${category}/${portfolioId}/2.png" class="img-fluid">`)
+      $("#imgThree").append(`<img src="images/portfolio/${category}/${portfolioId}/3.png" class="img-fluid">`)
+      $("#imgFour").append(`<img src="images/portfolio/${category}/${portfolioId}/4.png" class="img-fluid">`)
+      $("#imgFive").append(`<img src="images/portfolio/${category}/${portfolioId}/5.png" class="img-fluid">`)
+      $("#imgSix").append(`<img src="images/portfolio/${category}/${portfolioId}/6.png" class="img-fluid">`)
+
+      var textTitle = $.ajax({
+        url: `./images/portfolio/${category}/${portfolioId}/title.txt`,
+        async: false
+      }).responseText;
+      $("#textTitle").text(textTitle);
+
+    });
+  </script></body></html>
