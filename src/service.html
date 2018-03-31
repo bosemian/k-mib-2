@@ -12,51 +12,7 @@
 </head>
 <body>
   <!-- Header Menu -->
-  <header>
-    <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light bg-white">
-        <a href="index.html">
-          <img class="nav-icon" src="images/csp_logo.png" alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
-          aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar nav mr-auto"></ul>
-          <ul class="nav navbar-nav font-weight-bold nav-font">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">หน้าแรก</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">เกี่ยวกับเรา</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="whatnew.html">ข่าวสารช่างสุพรรณ</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="service.html">บริการ</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="portfolio.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ผลงานที่ผ่านมา</a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="portfolio.html#tube">พ่นทรายท่อ</a>
-                <a class="dropdown-item" href="portfolio.html#barrel">พ่นทรายถัง</a>
-                <a class="dropdown-item" href="portfolio.html#steel">พ่นทรายเหล็ก</a>
-                <a class="dropdown-item" href="portfolio.html#metal">พ่นทรายโลหะต่างๆ</a>
-                <a class="dropdown-item" href="portfolio.html#chassis">พ่นทราย คัสซี และตัวถัง</a>
-                <a class="dropdown-item" href="portfolio.html#etc">งานอื่นๆ</a>
-              </div>
-            </li>
-            <li id="contact" class="nav-item">
-              <a class="nav-link" href="contact.html">ติดต่อเรา</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-  </header>
-
+  <div id="header"></div>
   <main>
     <!-- Cover -->
     <section class="bg-landing landing-service">
@@ -104,28 +60,7 @@
       </div>
     </section>
     <section class="contact bg-contact txt-gray py-5">
-      <div class="container">
-        <div class="row flex-column align-items-center px-2">
-          <div class="col-sm-12 text-center">
-            <p class="h5 text-gray">ช่างสุพรรณ เอ็นจีเนียริ่ง พ่นทราย พ่นสี ในและนอกสถานที่</p>
-          </div>
-          <div class="col-sm-12 text-white">
-            <div class="row justify-content-center">
-              <div class="col-md-6 text-center px-0">
-                <div class="lead">
-                  <img class="img-fluid mr-1" src="images/telephone.png">081-9815542
-                </div>
-              </div>
-              <div class="col-md-auto"></div>
-              <div class="col-md-6 text-center px-0">
-                <div class="lead">
-                    <img class="img-fluid mr-1" src="images/facebook.png">SandBlastingByChangsuphan
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <div id="contact-info"></div>
     </section>
   </main>
   <footer class="bg-footer text-center txt-gray py-2 font-weight-bold">
@@ -134,5 +69,15 @@
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#header').load('./header.html', function() {
+        $('#service').addClass('active');
+      });
+      
+      $('#contact-info').load('./contact-info.html');
+      $('#footer').load('./footer.html');
+    })
+  </script>
 </body>
 </html>

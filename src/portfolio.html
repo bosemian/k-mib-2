@@ -81,7 +81,7 @@
           <div class="col-md-4 my-3">
             <a href="detail.html?category=tube&id=1">
               <div class="d-flex justify-content-end align-items-center">
-                  <a href="www.facebook.com/sharer.php?u=http%3a%2f%2fchangsuphan.com%2f" class="fa fa-facebook" tarket=”_blank”></a>
+                  <a href=”https://www.facebook.com/sharer.php?u=http%3a%2f%2fchangsuphan.com%2f”  class="fa fa-facebook" tarket=”_blank”></a>
                   <a href=””  class="fa fa-twitter" tarket=”_blank”></a>
                   <a href=””  class="fa fa-google" tarket=”_blank”></a>
                   <a href=””  class="fa fa-line" tarket=”_blank”>LINE</a>
@@ -516,11 +516,19 @@
     </section>
   </main>
   <!-- Footer -->
-  <footer class="bg-footer text-center txt-gray py-2 font-weight-bold">
-    &copy; Copyright 2018 changsuphan.com
-  </footer>
+  <div id="footer"></div>
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#header').load('./header.html', function() {
+        $('#portfolio').addClass('active');
+      });
+      
+      $('#contact-info').load('./contact-info.html');
+      $('#footer').load('./footer.html');
+    })
+  </script>
 </body>
 </html>
